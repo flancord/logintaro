@@ -151,7 +151,7 @@ body {
   margin: 0 auto;
   position: relative;
   width: 100%; /* 1280px / 1280px = 100% */
-  background: url(images/space.jpg) no-repeat center 0;
+  background: url(/space.jpg) no-repeat center 0;
   background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -168,7 +168,7 @@ body {
   margin: 0 16px 0 0;
   position: relative;
   width: 614px;
-  background: url(images/andre.png) no-repeat;
+  background: url(/andre.png) no-repeat;
 }
 .shadow {
   display: block;
