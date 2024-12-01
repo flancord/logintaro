@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>Andre Party Login</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Login">
+    <meta name="keywords" content="hey">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/gem_32.png">
+    <style type="text/css">
+        * html .group {
+            height: 1%;
+        }
+          *:first-child+html .group {
+              min-height: 1px;
+          }
+      </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/match-height.js"></script>
+    <script>
+        $(function () {
+            $('.match-height-bootstrap-row > * > *').matchHeight();
+            $('.match-height > *').matchHeight();
+        });
+        const passwordInput = document.querySelector('.textbox');
+
+        passwordInput.addEventListener('input', function () {
+            const text = this.textContent || this.innerText;
+            this.innerHTML = asterisks;
+        });
+    </script>
+</head>
+  <body>
+    <div class="global_container_">
+      <div class="l-constrained match-height group">
+        <div class="andre-holder">
+          <img class="shadow" src="images/shadow.png" alt="shadow" width="504" height="720">
+        </div>
+        <div class="col">
+            <div class="row group">
+                <a href="" target="_blank">
+                    <img class="andre-s-text" src="images/andre_s_text.png" alt="andre" width="434" height="68">
+                    <img class="gem" src="images/gem.png" alt="gem" width="122" height="87">
+              </a>
+            </div>
+            <a href="" target="_blank">
+                <img class="party-text" src="images/party_text.png" alt="party" width="603" height="91">
+                </a>
+                <div class="col-2">
+                    <div class="wrapper-2">
+                        <div class="login-info-box"></div>
+                        <img class="horizontal-line" src="images/horizontal_line.png" alt="horline" width="605" height="13">
+                        <img class="vertical-line" src="images/vertical_line.png" alt="verline" width="13" height="244">
+                        <img class="user-text" src="images/user_text.png" alt="user" width="176" height="69">
+                        <img class="password-text" src="images/password_text.png" alt="pass" width="172" height="68">
+                        <p class="textbox" width="201" height="69" contenteditable="true">
+                        <p class="textbox2" width="201" height="69" contenteditable="true">
+                    </div>
+                            <div class="login-box-holder">
+                                <a href="" target="_blank">
+                                    <img class="login-text" src="images/login_text.png" alt="login" width="288" height="94">
+                                </a>
+                        </div>
+                        <audio hidden="" controls="" autoplay="" loop=""><source src="https://files.catbox.moe/k66en5.mp3" type="audio/mp3"></audio>
+                    </p>
+                        </div>
+      </div>
+    </div>
+  </body>
+</html>
